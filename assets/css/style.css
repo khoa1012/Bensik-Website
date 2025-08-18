@@ -33,17 +33,18 @@ a{
     padding: 18px 16px;
 }
 /* Header */
-.header{
+.fixed-header{
+    padding-top: 26px;
     background-color: #E6F0FF;
-    height: 100vh;
-    
+    position: sticky;
+    top: -26px;
+    z-index: 1000;
 }
-
 .nav-bar{
     display: flex;
     background-color: #E6F0FF;
     align-items: center;
-    padding-top: 38px; 
+    padding: 12px 0; 
     
 }
 .nav-bar ul{
@@ -78,16 +79,15 @@ a{
     text-decoration: underline;
 }
 /* ======== Hero ========== */
-.header .wrap{
+.hero-wrap{
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: #e6f0ff;
-    height: calc(100vh - 90px);
+    background-color: #E6F0FF;
+    height: 100vh;
+    
 }
+
 .hero {
-    margin-top: 130px;
+    padding-top: 130px;
 }
 .hero .info{
     width: 51%;
