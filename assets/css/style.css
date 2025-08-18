@@ -11,6 +11,9 @@ body{
     font-size: 1.6rem;
     font-family: "Poppins";
 }
+html, body{
+    scroll-behavior: smooth;
+}
 /* Common */
 .content{
     width: 1110px;
@@ -40,11 +43,12 @@ a{
     top: -26px;
     z-index: 1000;
 }
+
 .nav-bar{
     display: flex;
     background-color: #E6F0FF;
     align-items: center;
-    padding: 12px 0; 
+    padding: 13px 0; 
     
 }
 .nav-bar ul{
@@ -82,7 +86,7 @@ a{
 .hero-wrap{
     position: relative;
     background-color: #E6F0FF;
-    height: 100vh;
+    height: calc(100vh - 90px);
     
 }
 
