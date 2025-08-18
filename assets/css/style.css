@@ -86,16 +86,18 @@ a{
     background: #e6f0ff;
     height: calc(100vh - 90px);
 }
-.hero .info{
+.hero {
     margin-top: 130px;
+}
+.hero .info{
     width: 51%;
 }
-.hero .sub-title{
-    color: #687691;
+.hero .sub-title{ 
+    color: #687690;
     font-size: 1.8rem;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.018rem;
+    letter-spacing: 0.01em;
 }
 .hero .title{
     margin-top: 8px;
