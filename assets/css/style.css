@@ -117,7 +117,7 @@ a{
 }
 .hero .about{
     margin-top: 40px;
-    min-width: 17rem;
+    min-width: 170px;
     height: 5rem;
     flex-shrink: 0;
 }
