@@ -87,11 +87,12 @@ a{
     position: relative;
     background-color: #E6F0FF;
     height: calc(100vh - 90px);
-    
+    display: flex;
+    align-items: center;
 }
 
 .hero {
-    padding-top: 130px;
+    /* padding-top: 130px; */
 }
 .hero .info{
     width: 51%;
