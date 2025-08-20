@@ -332,10 +332,11 @@ a{
 }
 .feature .icon-text{
     display: flex;
+    white-space: nowrap;
     align-items: center;
 }
 .feature .icon-text img{
-    margin-right: 8px;
+    margin-right: 6px;
 }
 .feature .properties-list{
     display: flex;
